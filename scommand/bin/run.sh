@@ -1,0 +1,1 @@
+./scommand url=http://10.92.71.162/concerto/ username=lakitunft password=lakitunft customproperty=Band1/MAXDURATION=600000 failonerror=no cmd=play wait format=xml name=/Compositions/DownloadAPI/U3/DeploymentDryRun/D_API_DEPL_DRYRUN_30PCTLoad

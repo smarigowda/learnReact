@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BIN_DIR=`dirname "$0"`
+. "$BIN_DIR/setclasspath"
+
+"$JAVA" -ea -cp "${_CLASSPATH}" ${CLOUDTEST_JAVA_OPTS} -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file="$BIN_DIR/logging.properties.scommand" com.soasta.tools.scommand.Main "$@"
